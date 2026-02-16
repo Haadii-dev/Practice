@@ -1,0 +1,19 @@
+// // .map() vs .foreach()
+
+// // => Even though, it seems that both methods does same thing, they are different in terms of their return value and use case. 
+
+// // // 
+// // // map() is used to transform data and it returns a new array with the transformed data. For example, if we want to multiply each element of an array by a certain number, we can use .map() to achieve that.
+// // // On the other hand, .foreach() is used to perform side effects, such as saving data to a database or logging to the console. It does not return anything, it simply executes a provided function once for each array element.
+
+// // .map() returns new array                                 .foreach() retruns nothing
+// // used to transfor data. e.g,                              used to save data to database or console log
+// // multiplying array with some number
+
+
+
+// If you want to...,                            ||         Use this loop:
+// Transform data into a new array,              ||         .map()
+// Perform an action (log/save) on an array,     ||         .forEach() or for...of
+// Stop or skip items in an array,               ||         for...of
+// Loop through Object properties,               ||         Classic for loop
