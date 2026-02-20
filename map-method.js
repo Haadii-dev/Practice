@@ -17,4 +17,6 @@ const a = 9
 const newArr = numbers.map(function(num){
     return num * a
 })
-console.log(newArr)
+console.log(newArr.join(', '))
+
+// s
