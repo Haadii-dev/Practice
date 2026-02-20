@@ -14,7 +14,7 @@ const html = permissions.map(permission => {
 }).join(' ')
 
 console.log(html)
-console.log(name, id, isOnline, permissions)
+console.log(name, id, isOnline, permissions) 
 
 const togglelogin = (userObj) => {
     return userObj.isOnline = !userObj.isOnline
